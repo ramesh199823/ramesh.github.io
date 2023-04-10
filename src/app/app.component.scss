@@ -1,0 +1,49 @@
+.card {
+    width: 1200px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 500px 590px 1fr;
+    align-items: center;
+    position: fixed;
+    border: 1px thick;
+    left: 10%;
+    top: 20%;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.5);
+}
+
+.footer {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    background-color: hsl(48 100% 48% / 1);
+}
+
+.image {
+    margin-left: 80px;
+    width: 300px;
+}
+
+.dynamic-content {
+    font-size: 23px;
+    position: relative;
+    height: 100%;
+    width: 550px;
+    margin-top: 170px;
+
+}
+
+.name {
+    font-weight: 800;
+    font-size: 30px;
+    font-family: monospace;
+}
+.location{
+    font-weight: bold;
+}
+.image2{
+    width: 70px;
+    position: absolute;
+    top: 5px;
+    right: 97px;
+}
